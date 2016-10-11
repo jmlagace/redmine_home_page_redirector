@@ -1,0 +1,11 @@
+= home_to_my_page
+
+A very simple redmine plugin that will redirect signed-in users to My Page when they sign-in or when they click the home link in the website header.
+
+Tested with redmin 3.3.x
+
+Install to redmine/plugins directory. No migrations are needed.
+
+== TODO 
+
+- Write some simple test cases
