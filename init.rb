@@ -1,4 +1,4 @@
-Redmine::Plugin.register :home_page_redirector do
+Redmine::Plugin.register :redmine_home_page_redirector do
   name 'Home Page Redirector'
   author 'Jean-Marc Lagacé'
   description 'When a user is signed-in. The Home link sends to My Page.'
