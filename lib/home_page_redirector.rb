@@ -2,10 +2,11 @@ module HomePageRedirector
   module HomePageRedirector
     def self.included(base)
       base.class_eval do
-        # Insert overrides here, for example:
+        # Redirect authenticated users to my_page after successful login
+        # or home page click, if there is no back_url or referer present
         def index_with_redirector
           unless User.current.anonymous?
-            redirect_to my_page_path
+            redirect_back_or_default my_page_path
           else
             index_without_redirector
           end
