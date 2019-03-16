@@ -2,7 +2,7 @@ Redmine::Plugin.register :redmine_home_page_redirector do
   name 'Home Page Redirector'
   author 'Jean-Marc Lagacé'
   description 'When a user is signed-in. The Home link sends to My Page.'
-  version '0.0.2'
+  version '1.0.0'
   url 'https://github.com/jmlagace/redmine_home_page_redirector'
   author_url 'http://m2i3.com'
 
