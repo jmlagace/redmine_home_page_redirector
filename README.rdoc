@@ -1,10 +1,10 @@
-= home_to_my_page
+= Home Page Redirector plugin for Redmine
 
 A very simple redmine plugin that will redirect signed-in users to My Page when they sign-in or when they click the home link in the website header.
 
-Tested with redmin 3.2.x
+Tested with Redmine 2.6.6 through 4.0.2 and ruby 2.1.x through 2.6.2
 
-Install to redmine/plugins directory. No migrations are needed.
+Install to redmine/plugins directory. No migrations are needed. No configuration needed 
 
 == TODO 
 
