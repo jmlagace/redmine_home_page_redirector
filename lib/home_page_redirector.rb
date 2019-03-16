@@ -10,7 +10,8 @@ module HomePageRedirector
             index_without_redirector
           end
         end
-        alias_method_chain :index, :redirector 
+        alias_method :index_without_redirector, :index
+        alias_method :index, :index_with_redirector
       end
     end
   end
